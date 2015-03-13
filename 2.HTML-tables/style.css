@@ -1,0 +1,46 @@
+body{
+font-size:20px;
+}
+
+th,td{
+	height:60px;
+	width:80px;
+	padding:5px;
+ }
+ 
+#google{
+vertical-align:top
+}
+
+#github{
+ vertical-align:top;
+ text-align:right;
+}
+#fb{
+vertical-align:top;
+text-align:center;
+}
+
+#youtube{
+vertical-align:bottom;
+}
+
+#food{
+vertical-align:bottom;
+text-align:right;
+}
+#game{
+vertical-align:bottom;
+text-align:left;
+}
+#beer{
+font-size:30px;
+text-align:right;
+}
+.life{
+font-size:13px;
+}
+.sleep{
+font-size:13px;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 4</title>
+	<link rel="stylesheet" href="4Problem.css">
+</head>
+
+
+<body>
+<header>
+	<label>fakebook</label>
+	<span>&#174;</span>
+	<h1>Registration</h1>
+	<h2>It is safe and it will always be!</h2>
+</header>
+<form>
+	<fieldset>
+		<legend>None-Important Information</legend>
+			<input class="firstsix" type="text" name="name" placeholder="First Name"/>
+			<input class="firstsix" type="text" name="lname" placeholder="Last Name"/><br />
+			<input class="firstsix" type="email" name="email" placeholder="Your Email"/>
+			<input class="firstsix" type="tel" name="number" placeholder="Phone number"/><br />
+			<input class="firstsix" type="password" name="pass" placeholder="Your Password"/>
+			<input class="firstsix" type="text" name="name" placeholder="Website"/><br />
+		<label class="colorwhite">Birthday</label><br/>
+			<input  class="firstsix seventh" type="datetime-local" name="datetime" /><br />
+			
+			<input type="radio" name="sex" id="Female" >
+			<label class="colorwhite" for="Female">Female</label>
+			<input type="radio" name="sex" id="Male">
+			<label class="colorwhite" for="Male">Male</label>
+			<input type="radio" name="sex" id="Other">
+			<label class="colorwhite" for="Other">Other</label>
+	</fieldset>
+	
+	
+	<fieldset class="secondfieldset">
+		<legend>Important Information *required</legend>
+		<select required class="secondwidth">
+			<option value="">Country</option>
+			<option value="Value 1">Bulgaria</option>
+			<option value="Value 2">Italy</option>
+			<option value="Value 3">Germany</option>
+		</select>
+		<input class="secondwidth" type="text" name="vilage" placeholder="Village" required="required"/>
+		<input class="secondwidth" type="text" name="distr" placeholder="District" required="required"/><br />
+		<input class="secondwidth" type="text" name="street" placeholder="Street" required="required"/>
+		<input class="thirdwidth"  type="text" name="nomer" placeholder="Nr" required="required"/>
+		<input class="thirdwidth"  type="text" name="floor" placeholder="Floor" required="required"/>
+		<input class="thirdwidth"  type="text" name="ap" placeholder="Ap Nr" required="required"/><br />
+		<label class="colorwhite">Door Color</label><br/>
+		<input class="secondwidth" type="color"/>
+		<input class="secondwidth" type="text" name="water" placeholder="Water Meter Nr" required="required"/>
+		
+		<select required class="secondwidth" >
+			<option value="">Aunt Panties`Size</option>
+			<option value="Value 1">XXL</option>
+			<option value="Value 2">XXXXL</option>
+			<option value="Value 3">XXXXXL</option>
+		</select><br/>
+		<label class="colorwhite">More Personal Information</label><br/>
+		<textarea  cols="50" rows="4" placeholder="Give Us More Information.." required="required"> </textarea>	
+	</fieldset>
+	
+
+<footer>
+<button class="button" type="reset" value="Reset">Clear Form</button>
+<button class="button2" type="submit" value="Register">Register</button>
+</footer>
+
+</form>
+</body>
+</html>

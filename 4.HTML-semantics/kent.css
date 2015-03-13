@@ -1,0 +1,42 @@
+body{
+font-family:Tahoma;
+background-color:pink;
+}
+h1{
+margin-left:600px;
+}
+meter{
+width:200px;
+}
+section{
+display:inline-block;
+
+
+}
+#audio{
+ width:350px;
+margin-bottom:10px;
+}
+img{
+width:230px;
+height:210px;
+}
+#back{
+background:black;
+height:105px;
+padding-bottom:80px;
+}
+figcaption {
+    font-size:20px;
+	padding-bottom:5px;
+    
+}
+#completed{
+	margin-bottom:5px;
+    margin-left:6px;
+    font-size:19px;
+}
+section h3{
+	padding:5px;
+	font-weight:normal;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+	<link rel="stylesheet" href="3Problem.css">
+</head>
+<body>
+	<div class="big">
+		<h2 class="whitetext">Step 1:Your details</h2>
+			<div class="one">
+				<label>Name</label>
+				<input type="text" name="name" class="name" placeholder="First and last name"><br>
+			</div>	
+			
+			<div class="one">
+				<label>Email</label>
+				<input type="text" name="email" class="name"  placeholder="example@domain.com"><br>
+			</div>
+			<div class="one">
+				<label>Phone</label>
+				<input type="text" name="phone" class="phone"  placeholder="eg. +447500000000"><br>
+			</div>
+			
+			<h2 class="whitetext">Step 2: Delivery address</h2>
+			<div class="two">
+				<label class="label-adress">Address</label>
+				<textarea rows="4" cols="20" class="adress" placeholder=""></textarea>
+			</div>
+			<div class="one">
+				<label>Post code</label>
+				<input type="text" name="code" class="code" placeholder=""><br>
+			</div>
+			<div class="one">
+				<label>Country</label>
+				<input type="text" name="country" class="country" placeholder=""><br>
+			</div>
+			
+			<h2 class="whitetext">Step 3:Card details</h2>
+			<div class="three">
+				<label>Card type</label><br>
+				<input type="radio" name="card" value="visa" id="visa"/>
+				<label for="visa" id="visacard">Visa</label>
+				<input type="radio" name="card" value="emex" id="emex"/>
+				<label for="emex" id="emexcard">EmEx</label>
+				<input type="radio" name="card" value="master" id="master"/>
+				<label for="master" id="mastercard">Master card</label>
+			</div>
+			<div class="one">
+				<label>Card number</label>
+				<input type="text" name="card" class="card" placeholder=""><br>
+			</div>
+			<div class="one">
+				<label>Security code</label>
+				<input type="text" name="security-code" class="security-code" placeholder=""><br>
+			</div>
+			<div class="one">
+				<label>Name on card</label>
+				<input type="text" name="name-card" class="name-card" placeholder="exact as on the card"><br>
+			</div>
+			<div>
+				<p class="buyit">BUY IT!</p>	
+			</div>
+	</div>
+	
+	
+</body>
+</html>

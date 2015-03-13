@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 2</title>
+	<link rel="stylesheet" href="2Problem.css">
+</head>
+<body>
+	<div class="big">
+		<h1>FLIGHT ORDER</h1>
+			<div class="left">
+				<label>From</label><br/>
+				<select name="city" class="selectwidth cellspacing">
+					<option value="">Enter a city</option>
+					<option value="Value 1">Sofia</option>
+					<option value="Value 2">Amsterdam</option>	
+					<option value="Value 3">Berlin</option>	
+				</select><br/>
+				<label>Departure Date</label><br/>
+					<input class="selectwidth smallspace" name="ddate" type="date"/> 
+					<br/>
+				<label>Return Date</label><br />
+					<input class="selectwidth smallspace" name="rdate" type="date" />				
+				<div>
+					<label class="space">12+</label>
+					<label class="space">2-12</label>
+					<label>0-2</label><br/>
+					<input type="number" min="0"  max="100"/>
+					<input type="number" min="0" max="100"/>
+					<input type="number" min="0" max="100"/>
+				</div>
+			</div>
+			<div class="right">
+				<label>To</label><br/>
+				<select name="descity" class="selectwidth">
+					<option value="">Enter a city</option>
+					<option value="Value 1">Sofia</option>
+					<option value="Value 2">Los Angeles</option>
+					<option value="Value 3">New York</option>
+				</select><br />
+				<input type="checkbox" id="direct"/>
+				<label for="direct">Prefer directs</label><br />
+				<label>Time Interval</label><br/>
+					<input class="smallspace smallwidth" type="time" name="interval" >
+					<input class="smallwidth" type="time" name="interval"> <br />
+				<label>Time Interval</label><br />
+					<input class="smallspace smallwidth" type="time" name="interval" >
+					<input class="smallspace smallwidth" type="time" name="interval" > <br />
+				<label>Choose class</label><br />
+					<select name="travel" class="selectwidth">
+						<option value="Value 1">Executive</option>
+						<option value="Value 2">Business</option>
+						<option value="Value 3">Economy</option>	
+					</select>	
+							
+			</div>
+			<input class="button selectwidth" type="button" value="Search"/>	
+	
+	</div>	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

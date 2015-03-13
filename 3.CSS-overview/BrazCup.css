@@ -1,0 +1,149 @@
+ body{
+	background-color: #00923E;
+	font-family: tahoma, sans-serif;
+	font-size:90%;
+ }
+#lenght{
+	
+	 height:278px;
+	 width:854px;
+	 border:2px solid black;
+	 border-radius: 25px;
+}
+
+table{
+
+	width: 856px;
+	height:280px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden ;
+}
+
+table, th, td {
+	
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(2n + 1) {
+    background-color: white;
+}
+
+tr:nth-child(2n) {
+    background-color: #c8c8c8;
+}
+/*header*/
+#colorTop{
+    color: black;
+    font-weight: bold;
+    background-color: #f8c711;
+    height: 40px;
+}
+
+.left{
+		width:140px;
+		text-align:right;
+		font-size:150%;
+	}
+	
+th{
+		font-size:150%;
+  }
+  
+.resultgroup{
+		text-align:center;
+		width:80px;
+}
+
+.right{
+		width:140px;
+		font-size:150%;
+}
+/*  end of header*/
+
+.small-col{
+		width:115px;
+}
+.points{
+		width:90px;
+}
+.bets{
+		width:40px;
+}	
+/* */
+
+.left-text{
+		text-align:right;
+		padding-right:5px;
+}
+.right-padding{
+		padding-left:5px;
+}
+
+.beted {
+    background-image: url("images/bet-red.png");
+background-repeat: no-repeat;
+    background-position: center;
+    width:30px;
+    background-size: 35px
+}
+.bet {
+    background-image: url("images/bet-green.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:30px;
+    background-size: 35px
+}
+
+select:disabled {
+     background-color: #dcdcdc;
+     color: red;
+ }
+
+select:enabled {
+    color: green;
+}
+
+.brazil:after{
+		 content:url("images/brazil.PNG");
+		 padding-left: 5px;
+}
+.mexico:before{
+		content:url("images/mexico.PNG");
+		padding-right:5px;
+}
+.spain:after{
+		content:url("images/spain.PNG");
+		padding-left:5px;
+}
+.netherlands:before{
+		content:url("images/netherlands.PNG");
+		padding-right: 5px;
+}
+.italy:after{
+		content:url("images/italy.PNG");
+		padding-left:5px;
+}
+.england:before{
+		content:url("images/england.PNG");
+		padding-right:5px;
+}
+.argentina:after{
+		content:url("images/argentina.PNG");
+		padding-left:5px;
+}
+.bosna:before{
+		content:url("images/bosna.PNG");
+		padding-right:5px;
+}
+.germany:after{
+		content:url("images/germany.PNG");
+		padding-left:5px;
+}
+.portugal:before{
+		content:url("images/portugal.PNG");
+		padding-right:5px;
+}
